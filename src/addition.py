@@ -1,5 +1,7 @@
 def add(a, b):
-  print("\n returning addition as: "+(a+b));
+  int r=a+b;
+  print("\n returning addition as: ");
+  print(r);
   return a+b;
 
 def test_add():
