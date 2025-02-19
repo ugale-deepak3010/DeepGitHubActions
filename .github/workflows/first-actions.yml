@@ -29,7 +29,7 @@ jobs:
         pip install pytest
     - name: Displaying Number
       run: |
-        echo "Building version= ${{env.version}} ${{ github.run_number }}"
+        echo "Building version= ${{env.version}}${{ github.run_number }}"
 
     - name: Run tests
       run: |
