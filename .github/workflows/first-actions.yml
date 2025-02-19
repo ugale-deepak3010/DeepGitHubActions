@@ -29,14 +29,15 @@ jobs:
         pip install pytest
     - name: Displaying Number
       run: |
-        echo "Building version ${{ github.run_number }}"
+        echo "Building version= ${{env.version}} ${{ github.run_number }}"
 
     - name: Run tests
       run: |
         cd src
         python -m pytest addition.py
       
-
+env:
+  version: 9.16.0
           
 
 
