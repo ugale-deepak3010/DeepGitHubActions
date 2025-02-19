@@ -2,6 +2,9 @@ name: My First actions
 #can be push or pull or both.
 on: [push] 
 
+env:
+  version: 9.16.0
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,8 +39,6 @@ jobs:
         cd src
         python -m pytest addition.py
       
-env:
-  version: 9.16.0
           
 
 
