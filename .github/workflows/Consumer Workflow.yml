@@ -7,6 +7,6 @@ on:
 
 jobs:
   call_greeting:
-    uses: ugale-deepak3010/template-repo/.github/workflows/greeting-template.yml@main
+    uses: ugale-deepak3010/Deep-Git-Composite-Action/.github/workflows/display-name.yml@main
     with:
       name: "Deepak"
