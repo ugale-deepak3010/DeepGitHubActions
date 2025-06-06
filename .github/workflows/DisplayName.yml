@@ -1,0 +1,13 @@
+name: Display Name
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  display_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Login
+        run: echo "My GitHub Login is ugale-deepak3010"
