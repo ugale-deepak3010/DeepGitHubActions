@@ -12,5 +12,5 @@ jobs:
     #uses: ugale-deepak3010/Deep-Git-Composite-Action/.github/workflows/display-name/action.yml@main
     uses: ugale-deepak3010/Deep-Git-Composite-Action/.github/workflows/display-name.yml@main
     with:
-      name: "De--1--epak"
+      name: "De--2--epak"
       script_path: "./src/addition.py"
