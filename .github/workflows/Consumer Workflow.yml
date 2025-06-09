@@ -14,3 +14,4 @@ jobs:
       script_path: "./src/addition.py"
     secrets:
       password: "Pass123"
+
