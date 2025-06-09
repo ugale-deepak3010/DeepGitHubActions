@@ -7,8 +7,11 @@ on:
 
 jobs:
   call_greeting:
+  
     #uses: ugale-deepak3010/Deep-Git-Composite-Action/.github/workflows/display-name/action.yml@main
-    uses: ugale-deepak3010/Deep-Git-Composite-Action/.github/workflows/display-name.yml@main
+    uses: ugale-deepak3010/Deep-Git-Composite-Action/.github/workflows/BuildAndPublishDockerImg.yml@main
     with:
       name: "De--2--epak"
       script_path: "./src/addition.py"
+    secrets:
+      password: 123
