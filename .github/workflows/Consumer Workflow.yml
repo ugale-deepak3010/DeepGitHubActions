@@ -14,4 +14,4 @@ jobs:
       name: "De--2--epak"
       script_path: "./src/addition.py"
     secrets:
-      password: 123
+      password: "Pass123"
