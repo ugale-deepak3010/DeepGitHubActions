@@ -10,7 +10,7 @@ on:
 jobs:
   call_greeting:
   
-    uses: ugale-deepak3010/Deep-Git-ReUsable-Action/.github/workflows/BuildAndPublishDockerImg.yml@Dipak-Ugale
+    uses: ugale-deepak3010/Deep-Git-ReUsable-Action/.github/workflows/BuildAndPublishDockerImg.yml@main
     with:
       name: "De--2--epak"
       script_path: "./src/addition.py"
